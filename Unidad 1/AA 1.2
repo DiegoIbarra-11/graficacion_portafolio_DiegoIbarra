@@ -1,1 +1,78 @@
-https://editor.p5js.org/Diego-Ibarra11/full/Bfk1F4Dfi
+function setup (){
+  createCanvas(400,400);
+  
+  background('#ffcc99');
+
+   // cara
+  rect(150, 40, 100, 80);
+  fill(255, 0, 0);
+
+  stroke(0);
+  strokeWeight(4);
+  fill ('#66ccff'); // base antena
+  rect(170, 30, 60, 10);
+
+  fill ('black'); //palito antena
+  rect(197, 20, 5, 10)
+  
+  noStroke();
+  fill('#66ccff'); //bola antena
+  triangle(199.5, 15, 15, 30, 20, 5);
+
+  fill('black'); //ojo izquierdo
+  ellipse (175, 70, 30, 30);
+
+  fill('black'); // ojo derecho
+  ellipse (225, 70, 30, 30);
+
+  fill('white')//acento ojo
+  ellipse (170, 65, 10, 10)
+
+  fill('white')//acentp ojo
+  ellipse (220, 65, 10, 10)
+
+  fill('#fffff'); // cuerpo
+  rect(160, 120, 80, 70)
+
+  fill(102, 204, 255, 120); // cuerpo adentro
+  rect(170, 130, 60, 50)
+
+  fill(102, 204, 255, 120); // cuerpo adentro
+  rect(185, 140, 30, 25)
+
+  fill('white')//acento cuerpo
+  ellipse (220, 155, 10, 10)
+
+  fill('#fffff')
+  rect(140, 130, 20, 50)
+
+  fill('#fffff')
+  rect(240, 130, 20, 50)
+
+  fill('#66ccff')
+  square(140, 180, 20)
+
+  fill('#66ccff')
+  square(240, 180, 20)
+
+  fill('white')
+  rect(160, 190, 20, 50)
+
+  fill('white')
+  rect(220, 190, 20, 50)
+
+  fill ('#66ccff')
+  square(160, 220, 20)
+
+  fill ('#66ccff')
+  square(220, 220, 20)
+
+  noFill()
+  strokeWeight(4);
+  arc(180, 100, 80, 10, 0, QUARTER_PI)
+
+
+}
+function draw (){
+  
+}
